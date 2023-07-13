@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Barcode+39+Extended+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FEFEFF;
+    overflow-x: hidden;
+    
+}
+
+.logo-artcode{
+    flex: 15%;
+    margin-left: 5%;
+}
+
+.logo-image{
+    width: auto;
+    display: flex;
+    height: 100px;
+    width: 120px;
+    justify-items: center;
+    margin: auto; 
+}
+
+
+.menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    flex-flow:  row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    height: 5%;
+    color: #F241A3;
+    font-size: 20px;
+}
+
+a:hover{
+    border-top: 4px solid #BF2696;
+}
+
+.list-menu {
+    display: flex;
+    flex: 50%;
+    list-style: none;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    height: 30px;
+}
+
+
+.div-button{
+    flex: 4%;
+    height: 37px;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+.button-called{
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color:  rgb(245, 241, 241);
+    background-color: #F241A3;
+}
+
+
+.button-called:hover{
+    background-color: #8C0783;
+}
+
+
+.header01{
+    display: flex;
+    flex-flow:  row wrap;
+    height: 600px;
+}
+
+.header-img{
+    flex: 40%;
+    margin-left: 5%;
+}
+
+.header-line{
+    flex: 40%;
+    margin-right: 10%;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.header-line > h2{
+   font-weight: 900;
+   font-size: 20px;
+   color: #8C0783; 
+   padding: 0;
+   margin: 0;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-called-02{
+  font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color:  rgb(245, 241, 241);
+    background-color: #F241A3;
+    margin-top: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.button-called-02:hover{
+    background-color: #8C0783;
+}
+
+.description{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #81247b ;
+    text-align: justify;
+}
+
+section{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 400px;
+    text-align: center;
+    padding: 4%;
+}
+
+section > h2{
+    
+    font-family:  'Lobster', cursive; 
+    font-size: 40px;
+    color: #81247b;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+section > h3{
+    font-family: 'Lobster', cursive; 
+    margin-top: 4%;
+    font-size: 25px;
+    
+}
+
+.services{
+    display: inline-block;
+    margin-top: 5%;
+    
+}
+
+.card{
+    display: inline-block;
+    color: white;
+    text-align: justify;
+    float: left;
+    width: 31%;
+    padding: 10px;
+    margin: 1%;
+    background-color: #81247b;
+    border-radius: 10px;
+    height: 220px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:  'Lobster', cursive; ;
+    color: #f8f0f7;
+    font-size: 27px;
+    filter: brightness(100%);
+
+    
+}
+.text{
+    color: white;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    
+}
+
+
+.card:hover{
+    
+    box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, 0.397);
+    scale: 110%;
+    transition: 250ms;
+    
+}
+.div-icon{
+    text-align: center;
+
+}
+.icon{
+    text-align: center;
+    width: 55px;
+   
+    text-align: center;
+}
+
+
+footer{
+    width: 100vw;
+    margin-top: 100px;
+    height: 300px;
+    background-image: url(/image/footer\ -\ 01.png);
+    background-size: cover;
+    text-align: center;
+    border-top: 3px solid #F241A3 ;
+    
+}
+
+.text-01{
+    padding-top: 100px;
+    display: flex;
+    padding-bottom: 0;
+    height: 150px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+  
+}
+.text-02{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copy{
+    padding-top: 70px;
+}
+
+.icon-animed{
+    display: flex;
+    position: fixed;
+    left: 86%;
+    bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 100px;
+    
+}
+
+.icon-whatsapp{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    animation: pulse 1.5s infinite;
+    
+}
+
+@keyframes pulse{
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.text-03{
+    display: none;
+    align-items: center;
+    justify-content: start;
+    text-align: justify;
+    font-size: 13px;
+    color:white;
+    margin-right: 12px;
+    opacity: 0;
+    transform: opacity 50s ease;
+    background-color: #F241A3;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+
+.icon-animed:hover .text-03{
+    display: flex;
+    opacity: 1;
+    
+
+}
+    
